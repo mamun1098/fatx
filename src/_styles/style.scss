@@ -269,3 +269,220 @@ button.button {
 
 @import "/src/_styles/header";
 @import "/src/_styles/footer";
+
+/* HERO BANNER START */
+section.hero-area {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+
+  .hero-wrapper {
+    width: 100%;
+
+    .swiper {
+      width: 100%;
+
+      .wrapper-content {
+        display: flex;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+
+        .background {
+          width: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+        }
+
+        .hero-content {
+          width: 100%;
+          position: relative;
+          z-index: 11;
+
+          .text-content {
+            h1 {
+              color: #E1EBFB;
+              font-size: 70px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 110%;
+              letter-spacing: -0.7px;
+              text-transform: uppercase;
+
+              span {
+                color: $themeColor;
+              }
+            }
+
+            .text {
+              max-width: 295px;
+              color: #A5C3FF;
+              font-family: $mulishFont;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 160%;
+              margin-top: 22px;
+            }
+
+            a.button {
+              margin-top: 33px;
+            }
+          }
+
+        }
+      }
+
+      .swiper-pagination {
+        bottom: 35px;
+
+        .swiper-pagination-bullet {
+          width: 13px;
+          height: 13px;
+          border-radius: 100%;
+          background: $themeColor;
+          transition: all 0.3s ease-in-out;
+          opacity: 1;
+          margin: 0 4px;
+
+          &.swiper-pagination-bullet-active {
+            width: 16px;
+            height: 16px;
+            background: #545454;
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+  }
+
+  &.higher {
+    min-height: 815px;
+
+    @media (max-width: 991px) {
+      min-height: 300px;
+    }
+
+    .hero-wrapper {
+      .swiper-slide {
+        min-height: 815px;
+
+        @media (max-width: 991px) {
+          min-height: 300px;
+        }
+
+        .wrapper-content {
+          height: 100%;
+
+          .gradient-overlay {
+            position: absolute;
+            // background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.40) 86.5%), linear-gradient(282deg, rgba(0, 0, 0, 0.00) 10.87%, rgba(0, 0, 0, 0.95) 53.06%);
+            // background: linear-gradient(0deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 100%);
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            z-index: 1;
+
+          }
+
+        }
+
+      }
+    }
+  }
+
+
+}
+
+/* HERO BANNER END */
+
+/* WHAT IS FATX START */
+section.what-is-fatx {
+  .wrapper-block {
+    background: #FCEDC2;
+    padding: 135px 20px 55px;
+    border-radius: 31px;
+
+    .content {
+      span {
+        color: #232743;
+
+        font-family: $sofiaFont;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+        display: block;
+        letter-spacing: 0.07px;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 42px;
+      }
+
+      h2 {
+        color: #02030C;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 110%;
+        letter-spacing: -0.7px;
+        text-transform: uppercase;
+      }
+
+      p {
+        color: #232743;
+        font-family: $mulishFont;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        margin-top: 65px;
+        max-width: 485px;
+      }
+    }
+
+    .col-lg-3 {
+      height: auto;
+    }
+
+    .single-item {
+      text-align: center;
+      border-radius: 23.898px;
+      background: $whiteColor;
+      padding: 57px 10px 15px 10px;
+      height: 100%;
+
+      h3 {
+        color: #02030C;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 110%;
+        /* 33px */
+        letter-spacing: -0.3px;
+        margin-top: 10px;
+      }
+
+      p {
+        color: #232743;
+        text-align: center;
+        font-family: $mulishFont;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        max-width: 249px;
+        margin: 10px auto 0;
+
+      }
+    }
+  }
+}
+
+/* WHAT IS FATX END */
