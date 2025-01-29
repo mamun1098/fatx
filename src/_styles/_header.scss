@@ -1,0 +1,91 @@
+.header-area {
+    background: #000;
+
+    .logo {
+        position: relative;
+
+        img {
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            left: -35px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        color: #F1B501;
+        font-family: $mulishFont;
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 1000;
+        line-height: normal;
+        text-transform: uppercase;
+        padding-left: 50px;
+    }
+
+    .left-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 30px 10px 30px;
+        border-radius: 100px;
+        border: 1px solid #232743;
+
+        .mail-to {
+            color: #F1B501;
+            font-family: $mulishFont;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+    }
+
+    .main-header {
+        padding: 25px 0 35px;
+
+        @media (max-width: 991px) {
+            padding: 20px 0;
+        }
+
+        ul.main-menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 45px;
+
+            @media (max-width: 1200px) {
+                column-gap: 40px;
+            }
+
+            li {
+                a {
+                    display: inline-block;
+                    color: $whiteColor;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    font-family: $mulishFont;
+                    transition: all 0.3s ease-in-out;
+
+                    @media (max-width: 1200px) {
+                        font-size: 14px;
+                    }
+
+                    &:hover {
+                        color: $themeColor;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .header-button {
+        text-align: right;
+    }
+
+}

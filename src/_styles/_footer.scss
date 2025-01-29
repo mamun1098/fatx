@@ -1,0 +1,123 @@
+.footer-area {
+    background: $black;
+
+    .footer-top {
+        padding-top: 90px;
+        padding-bottom: 95px;
+
+        .left-wrap {
+            .logo {
+                display: inline-block;
+                margin-bottom: 50px;
+            }
+
+            .addres {
+                max-width: 415px;
+
+                .addr {
+                    margin-bottom: 50px;
+                }
+
+                p,
+                a,
+                .item {
+                    color: #FFF;
+                    font-family: $mulishFont;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 150%;
+
+                    strong {
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+
+        .widget-wrapper {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+
+        .widget-list {
+            .widget-title {
+                color: #FF9500;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%;
+                display: block;
+                margin-bottom: 13px;
+            }
+
+            .footer-menu {
+                @media (max-width: 991px) {
+                    margin: 30px 0;
+                }
+
+                li {
+                    a {
+                        color: $whiteColor;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%;
+
+                        display: inline-block;
+                        margin-bottom: 5px;
+                        transition: all 0.3s ease-in-out;
+
+                        &:hover {
+                            color: $themeColor;
+                        }
+
+                        @media (max-width: 1200px) {
+                            font-size: 14px;
+                            line-height: 18px;
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    .footer-bottom {
+        .bottom-wrapper {
+            padding: 10px 0 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p {
+                color: $whiteColor;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+            }
+
+        }
+    }
+
+    .social-icons {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+
+        a {
+            font-size: 20px;
+            color: #ffffff;
+            transition: color 0.3s ease;
+            background: transparent;
+
+
+            &:hover {
+                color: $themeColor; // Replace with your theme color
+            }
+        }
+    }
+}
