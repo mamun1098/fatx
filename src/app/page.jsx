@@ -11,6 +11,8 @@ import CommonHero from "@/_components/home/hero";
 import WhatIsFatx from "@/_components/home/what-is-fatx";
 import UpcomingFeature from "@/_components/home/upcoming-features";
 import InvestmentSuccess from "@/_components/home/investment-success";
+import CTAArea from "@/_components/home/cta-area";
+import ExplorArea from "@/_components/home/explore";
 import { Fragment } from "react";
 // import Image from "next/image";
 
@@ -37,6 +39,8 @@ const Home = async () => {
           <InvestmentSuccess />
           <WhatIsFatx />
           <UpcomingFeature />
+          <ExplorArea />
+          <CTAArea />
         </div>
       </PublicLayout>
     </Fragment>
