@@ -7,7 +7,18 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import Image from "next/image";
 
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const CommonHero = ({ slides, isHigher }) => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration in milliseconds
+      once: true, // Ensures animation happens only once
+      easing: "ease-in-out", // Easing style
+    });
+  }, []);
   return (
     <section className={`hero-area ${isHigher ? "higher" : "normal"}`}>
       <Grid container className="hero-wrapper">
@@ -42,7 +53,10 @@ const CommonHero = ({ slides, isHigher }) => {
                   <Grid container className="container">
                     <Grid container className="row">
                       <Grid className="col-lg-6">
-                        <Grid className="text-content">
+                        <Grid
+                          className="text-content"
+                          data-aos="fade-right"
+                          data-aos-duration="800">
                           <h1>
                             Your <span className="yellow">Global Success </span>
                             Partner
@@ -57,7 +71,10 @@ const CommonHero = ({ slides, isHigher }) => {
                         </Grid>
                       </Grid>
                       <Grid className="col-lg-6">
-                        <Grid className="image">
+                        <Grid
+                          className="image"
+                          data-aos="fade-left"
+                          data-aos-duration="800">
                           <Image
                             src="/images/hero-01.png"
                             width={680}

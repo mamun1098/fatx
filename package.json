@@ -23,6 +23,7 @@
     "@mui/system": "^6.4.1",
     "@mui/x-date-pickers": "^7.23.6",
     "@types/lodash": "^4.17.14",
+    "aos": "^2.3.4",
     "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
     "dayjs": "^1.11.13",

@@ -1,13 +1,4 @@
 .header-area {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: transparent;
-    width: 100%;
-    z-index: 999;
-
     .logo {
         position: relative;
 
@@ -50,7 +41,8 @@
     }
 
     .main-header {
-        padding: 25px 0 35px;
+        padding: 25px 0 15px;
+        background: rgba(2, 3, 12, 1);
 
         @media (max-width: 991px) {
             padding: 20px 0;

@@ -9,10 +9,18 @@ import Grid from "@mui/material/Grid2";
 import PublicLayout from "@/_components/layouts";
 import CommonHero from "@/_components/home/hero";
 import WhatIsFatx from "@/_components/home/what-is-fatx";
+import UpcomingFeature from "@/_components/home/upcoming-features";
+import InvestmentSuccess from "@/_components/home/investment-success";
 import { Fragment } from "react";
 // import Image from "next/image";
 
 const slides = [
+  {
+    backgroundImage: "/images/hero-bg-1.png",
+    subtitle: "Louez facilement, profitez pleinement !",
+    titleHighlight: "Tout ce dont vous avez besoin",
+    title: "pour vos événements en quelques clics !",
+  },
   {
     backgroundImage: "/images/hero-bg-1.png",
     subtitle: "Louez facilement, profitez pleinement !",
@@ -26,7 +34,9 @@ const Home = async () => {
       <PublicLayout>
         <div className="home">
           <CommonHero slides={slides} isHigher={true} />
+          <InvestmentSuccess />
           <WhatIsFatx />
+          <UpcomingFeature />
         </div>
       </PublicLayout>
     </Fragment>

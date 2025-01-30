@@ -9,7 +9,10 @@ const WhatIsFatx = () => {
         <Grid className="wrapper-block">
           <Grid className="row">
             <Grid className="col-lg-6">
-              <Grid className="content">
+              <Grid
+                className="content"
+                data-aos="fade-right"
+                data-aos-duration="800">
                 <span>ABOUT US</span>
                 <h2>What is FATx?</h2>
                 <p>
@@ -26,7 +29,10 @@ const WhatIsFatx = () => {
               </Grid>
             </Grid>
             <Grid className="col-lg-6">
-              <Grid className="right-image text-center">
+              <Grid
+                className="right-image text-center"
+                data-aos="fade-left"
+                data-aos-duration="800">
                 <Image
                   src="/images/w-fatx.png"
                   width="535"
@@ -38,7 +44,10 @@ const WhatIsFatx = () => {
           </Grid>
           <Grid className="row">
             <Grid className="col-lg-3">
-              <Grid className="single-item">
+              <Grid
+                className="single-item"
+                data-aos="fade-up"
+                data-aos-duration="800">
                 <Image
                   src="/images/wi-01.svg"
                   width="34"
@@ -54,7 +63,10 @@ const WhatIsFatx = () => {
               </Grid>
             </Grid>
             <Grid className="col-lg-3">
-              <Grid className="single-item">
+              <Grid
+                className="single-item"
+                data-aos="fade-up"
+                data-aos-duration="900">
                 <Image
                   src="/images/wi-02.svg"
                   width="34"
@@ -70,7 +82,10 @@ const WhatIsFatx = () => {
               </Grid>
             </Grid>
             <Grid className="col-lg-3">
-              <Grid className="single-item">
+              <Grid
+                className="single-item"
+                data-aos="fade-up"
+                data-aos-duration="1000">
                 <Image
                   src="/images/wi-03.svg"
                   width="34"
@@ -85,7 +100,10 @@ const WhatIsFatx = () => {
               </Grid>
             </Grid>
             <Grid className="col-lg-3">
-              <Grid className="single-item">
+              <Grid
+                className="single-item"
+                data-aos="fade-up"
+                data-aos-duration="1100">
                 <Image
                   src="/images/wi-04.svg"
                   width="34"
