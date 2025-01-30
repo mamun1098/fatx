@@ -10,7 +10,7 @@ const InvestmentSuccess = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000, // Animation duration in milliseconds
-      once: true, // Ensures animation happens only once
+      once: false, // Ensures animation happens only once
       easing: "ease-in-out", // Easing style
     });
   }, []);
