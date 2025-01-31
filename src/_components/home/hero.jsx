@@ -12,13 +12,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const CommonHero = ({ slides, isHigher }) => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // Animation duration in milliseconds
-      once: true, // Ensures animation happens only once
-      easing: "ease-in-out", // Easing style
-    });
-  }, []);
   return (
     <section className={`hero-area ${isHigher ? "higher" : "normal"}`}>
       <Grid container className="hero-wrapper">

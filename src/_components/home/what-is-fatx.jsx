@@ -1,6 +1,8 @@
 "use client";
 import Grid from "@mui/material/Grid2";
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const WhatIsFatx = () => {
   return (

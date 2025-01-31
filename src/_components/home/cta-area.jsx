@@ -23,7 +23,10 @@ const CTAArea = () => {
                 backgroundPosition: "center",
                 position: "relative",
               }}>
-              <Grid className="content">
+              <Grid
+                className="content"
+                data-aos="fade-up"
+                data-aos-duration="800">
                 <h2>
                   Join ambitious professionals and unlock your dream career
                   today

@@ -814,3 +814,403 @@ section.what-is-fatx {
     }
   }
 }
+
+// testimonials-area Start
+.testimonials-area {
+  .testimoni-banner {
+    min-height: 370px;
+    // background-attachment: fixed;
+
+    .title-text {
+      margin-left: 60px;
+
+      h2 {
+        color: #232743;
+        font-family: $sofiaFont;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 110%;
+        letter-spacing: -0.7px;
+        text-transform: uppercase;
+
+        span {
+          color: #F4B100;
+        }
+      }
+    }
+  }
+
+  .testimoni-wrapper {
+    background: rgba(16, 18, 36, 1);
+    padding: 90px 0;
+
+    .swiper-slide {
+      height: auto;
+    }
+
+    .single-item {
+      padding: 40px;
+      border: 1px solid #232743;
+      height: 100%;
+
+      &.left-corner {
+        border-radius: 40px 0px 40px 40px;
+      }
+
+      &.right-corner {
+        border-radius: 0px 40px 40px 40px;
+      }
+
+      &.right-bottom-corner {
+        border-radius: 40px 40px 40px 0px;
+      }
+
+      p {
+        color: #A5C3FF;
+        font-family: $mulishFont;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+      }
+
+      .name {
+        color: #E1EBFB;
+        font-family: Muli$mulishFont;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-top: 30px;
+        margin-bottom: 2px;
+      }
+
+      .company {
+        color: #E1EBFB;
+        font-family: $mulishFont;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        display: block;
+      }
+    }
+  }
+
+  .swiper-pagination {
+    position: unset;
+    margin-top: 35px;
+
+    .swiper-pagination-bullet {
+      width: 8px;
+      height: 4px;
+      border-radius: 100px;
+      background: #232743;
+      transition: all 0.3s ease-in-out;
+      opacity: 1;
+
+      &.swiper-pagination-bullet-active {
+        width: 40px;
+        background: #A5C3FF;
+      }
+    }
+  }
+}
+
+// testimonials-area End
+
+
+// crypto-invest-area Start 
+.crypto-invest-area {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  .content {
+    h2 {
+      color: #02030C;
+      font-family: $sofiaFont;
+      font-size: 70px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 110%;
+      letter-spacing: -0.7px;
+      text-transform: uppercase;
+    }
+
+    p {
+      color: #3C3C3C;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 15px;
+    }
+
+    span {
+      display: block;
+      color: #737373;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 35px;
+      max-width: 500px;
+    }
+  }
+
+  .count-wrapper {
+    border-radius: 15px;
+    background: var(--Style, radial-gradient(101.7% 101.7% at 55.08% 93.26%, rgba(98, 83, 72, 0.20) 0%, rgba(128, 94, 101, 0.20) 22%, rgba(140, 126, 175, 0.20) 42.5%, rgba(84, 179, 199, 0.20) 57.5%, rgba(154, 219, 103, 0.20) 74%, rgba(242, 233, 47, 0.20) 89.5%, rgba(115, 115, 115, 0.20) 100%));
+    padding: 25px;
+    text-align: center;
+
+    .wrapp {
+      display: flex;
+      align-items: flex-start;
+      column-gap: 20px;
+      justify-content: center;
+    }
+
+    .title {
+      color: #000;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    .single-count {
+      position: relative;
+      text-align: center;
+
+      .count-value {
+        color: #09111C;
+        text-align: center;
+        font-size: 16.307px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16.307px;
+        letter-spacing: -0.007px;
+        position: absolute;
+        top: 38%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .count-label {
+        color: #000;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+
+    }
+
+    .buy-btn {
+      display: inline-flex;
+      height: 42.76px;
+      padding: 15px 22px 15px 22px;
+      text-align: center;
+      color: #101010;
+      font-size: 13.96px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 9.398px;
+      letter-spacing: -0.008px;
+      border-radius: 15.664px;
+      border: 2.088px solid #09111C;
+      background: #E7B64E;
+      margin-top: 20px;
+    }
+  }
+
+
+
+
+
+  //progress
+  .progress-container {
+    max-width: 370px;
+    margin: 35px auto 0;
+  }
+
+  .progress-top,
+  .progress-bottom,
+  .progress-details {
+    display: flex;
+    justify-content: space-between;
+
+    .b-title {
+      color: #09111C;
+      font-family: "Plus Jakarta Sans";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 11.915px;
+      letter-spacing: -0.008px;
+      display: inline-block;
+    }
+  }
+
+  .progress-bar {
+    height: 10px;
+    background: #ccc;
+    overflow: hidden;
+    position: relative;
+    margin: 10px 0;
+    border-radius: 5.221px;
+    border: 2.088px solid #3D434F;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: #ffba00;
+    transition: width 0.5s ease-in-out;
+  }
+
+  .progress-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .single-d {
+    text-align: left;
+
+    &.align-right {
+      text-align: right;
+    }
+
+    p {
+      color: #09111C;
+      font-family: "Plus Jakarta Sans";
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 13.617px;
+      /* 113.475% */
+      letter-spacing: -0.008px;
+      margin-bottom: 6px;
+    }
+
+    span {
+      color: #09111C;
+      font-family: Comfortaa;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 15.037px;
+      /* 107.408% */
+      letter-spacing: -0.008px;
+      display: block;
+    }
+  }
+
+}
+
+// crypto-invest-area End
+
+
+
+// recommanded-area start 
+.recommanded-area {
+  margin-top: -130px;
+  z-index: 11;
+  position: relative;
+  padding-bottom: 25px;
+
+  .top-content {
+    .image {
+      text-align: center;
+    }
+
+    .left-top-content {
+      background: rgba(241, 181, 1, 0.24);
+      padding-left: 110px;
+      padding-top: 55px;
+      min-height: 355px;
+      border-radius: 40px 40px 0 0;
+      position: relative;
+
+      .tag {
+        border-radius: 15px 15px 0px 0px;
+        background: #F1B501;
+        display: inline-flex;
+        padding: 12px 30px;
+        align-items: center;
+        color: #101224;
+        font-family: $sofiaFont;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 140px;
+        left: -71px;
+      }
+
+      h2 {
+        font-family: $sofiaFont;
+        color: $whiteColor;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 110%;
+        letter-spacing: -0.7px;
+        text-transform: uppercase;
+        max-width: 80%;
+
+        span {
+          color: #02030C;
+          display: inline-block;
+          align-items: center;
+        }
+
+        a.button {
+          margin-left: 15px;
+          top: -10px;
+        }
+      }
+    }
+  }
+
+  .bottom-content {
+    padding: 70px 45px 50px 45px;
+    background: rgba(241, 181, 1, 0.24);
+    border-radius: 30px 0 30px 30px;
+
+    .item-wrapper {
+      border: 1px solid rgba(35, 39, 67, 1);
+      border-radius: 40px;
+      display: flex;
+      align-items: flex-start;
+      height: auto;
+      justify-content: center;
+      align-items: stretch;
+
+      .single-item {
+        padding: 40px 50px 20px 50px;
+        max-width: 32%;
+        width: 100%;
+        border-right: 1px solid rgba(35, 39, 67, 1);
+
+        &:last-child {
+          border-right: none;
+        }
+
+        img {
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+}
+
+// recommanded-area End
